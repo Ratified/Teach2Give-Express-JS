@@ -59,7 +59,7 @@ To create a new user, send a POST request to /api/users with the following JSON 
 ```
 
 ## IMAGE
-![Screenshot]('./assets/images/screenshot.png')
+![Screenshot]('./src/assets/images/screenshot.png')
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
