@@ -1,9 +1,12 @@
 import express, { Request, Response } from 'express';
 import dotenv from 'dotenv';
+import path from 'path';
 import { getXataClient } from './xata';
 
 const app = express();
 const PORT = 5000;
+
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
 // Middleware
 dotenv.config();
