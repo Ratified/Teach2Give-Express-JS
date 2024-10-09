@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://RatifiedGeorge-s-workspace-bn1c1h.us-east-1.xata.sh/db/ratified",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
